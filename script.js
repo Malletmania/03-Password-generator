@@ -17,10 +17,10 @@ function isValidLength(passwordLength) {
 }
 
 function getPassWordOptions() {
-  var includeUpperCase = confirm("Message");
-  var includeLowerCase = confirm("Message");
-  var includeNumeric = confirm("Message");
-  var includeSpecial = confirm("Message");
+  var includeUpperCase = confirm("Do you wish to include upper case letters");
+  var includeLowerCase = confirm("do you wish to include lower case letters");
+  var includeNumeric = confirm("Do you wish to include numeric characters");
+  var includeSpecial = confirm("Do you wish to include special characters");
   var passwordLength = parseInt(
     prompt("Enter password length", passwordMin),
     10
